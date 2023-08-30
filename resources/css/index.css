@@ -8,6 +8,7 @@ h4 {
 }
 
 body {
+    width: 1200px;
     background-color: #000000;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
