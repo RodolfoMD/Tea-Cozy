@@ -1,0 +1,239 @@
+h2 {
+    margin: 10px auto;
+    padding: 5px 0;
+}
+
+h4 {
+    margin: 10px auto;
+}
+
+body {
+    background-color: #000000;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    display: inline-flex;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 1200px;
+    align-items: center;
+}
+
+.nav-menu {
+    width: 1150px;
+    text-align: right;
+    padding: 0;
+}
+
+.nav-menu li{
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.logo {
+    height: 50px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 700px;
+    width: 1200px;
+    background-image: url(../img/img-mission-background.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-text {
+    position: relative;
+    background-color: #000000;
+    width: 1200px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto 0;
+}
+
+content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 1000px;
+    flex-wrap: wrap;
+    margin: 10px 10px 0;
+}
+
+.tea-img {
+    height: 200px;
+    width: 300px;
+    flex-shrink: 0;
+    margin: 10px 10px;
+}
+
+#blitztea {
+    background-image: url(../img/img-berryblitz.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#spicerum {
+    background-image: url(../img/img-spiced-rum.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#seasonal {
+    background-image: url(../img/img-donut.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#avetea {
+    background-image: url(../img/img-myrtle-ave.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#bedford {
+    background-image: url(../img/img-bedford-bizarre.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tea-description {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+}
+
+.tea-description h4 {
+    width: 300px;
+    margin: 0 10px;
+}
+
+.locations {
+    display: flex;
+    position: relative;
+    background-image: url(../img/img-locations-background.jpg);
+    background-size: cover;
+    width: 1200px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.locations::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.direction {
+    background-color: #000000;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 15px 20px;
+    line-height: 40px;
+}
+
+.location-text {
+    position: relative;
+    flex-direction: column;
+    width: 1200px;
+}
+
+.location-text h2 {
+    position: relative;
+    margin: 60px auto 0;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    text-align: center;
+}
+
+.contact {
+    width: 1200px;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.copyright {
+    width: 1200px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.contact h2 {
+    margin-bottom: 40px;
+}
+
+.contact h5 {
+    margin: 40px 0;
+}
